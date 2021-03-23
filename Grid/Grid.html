@@ -7,9 +7,9 @@
   <link rel="icon" href="Firearm.jpg" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="Grid.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" <script
-    type="text/javascript" src="main.js">
-  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="Grid.js" type="text/javascript"></script>
 </head>
 <style type="text/css">
   body {
@@ -40,8 +40,9 @@
           <a href="#news">About</a>
           <div class="dropdown">
             <button class="dropbtn">
-              More
-              <i class="fa fa-caret-down"></i>
+              <div id="interactive-button">
+                More
+              </div><i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
               <a href="#">Link 1</a>
@@ -61,7 +62,51 @@
       <p class="category">
         CATEGORY
       </p>
-        <button class="minus"><i class="fas fa-minus"></i></button>
+      <p class="ammunition">
+        Ammunition
+      </p>
+      <ul>
+        <li class="ammunitionli"><a href="#">Handgun Ammo</a></li>
+        <li class="ammunitionli"><a href="#">Rifle Ammo</a></li>
+        <li class="ammunitionli"><a href="#">Shotgun Ammo</a></li>
+        <li class="ammunitionli"><a href="#">Blanks</a></li>
+        <li class="ammunitionli"><a href="#">Rimfire</a></li>
+      </ul>
+
+      <p class="ammunition">
+        Gauge
+      </p>
+      <ul>
+        <li class="ammunitionli"><a href="#">10 Gauge</a></li>
+        <li class="ammunitionli"><a href="#">12 Gauge</a></li>
+        <li class="ammunitionli"><a href="#">20 Gauge</a></li>
+        <li class="ammunitionli"><a href="#">28 Gauge</a></li>
+      </ul>
+      <button class="btanime">Animation</button>
+      <div class="anime">
+        <div class="box1">
+          Box<br>1
+        </div>
+      </div>
+      <p class="animation2">Animation2</p>
+      <div class="box2">
+        Box<br>2
+      </div>
+      <p class="animation2">Animation3</p>
+      <div class="box3">
+        Box<br>
+        3
+      </div>
+      <p class="animation2">Animation4</p>
+      <div class="box4">
+        Box<br>
+        4
+      </div>
+      <p class="animation2">Animation5</p>
+      <div class="box5">
+        Box<br>
+        5
+      </div>
     </aside>
     <article class="content">
       <h3 class="h3">Handguns</h3>
@@ -132,6 +177,11 @@
         <li><a href="#">Training</a></li>
         <li><a href="#">Security</a></li>
       </ul>
+      <button class="button button1">btn</button>
+      <button class="button button2">btn</button>
+      <button class="button button3">btn</button>
+      <button class="button button4">btn</button>
+      <button class="button button5">btn</button>
     </footer>
   </div>
 </body>
